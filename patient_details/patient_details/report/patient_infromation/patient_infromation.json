@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-09-12 14:57:13.739540",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": "Patient Information",
+ "modified": "2023-09-12 14:57:13.739540",
+ "modified_by": "Administrator",
+ "module": "Patient Details",
+ "name": "Patient Infromation",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Patient Information",
+ "report_name": "Patient Infromation",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Patient Details"
+  }
+ ]
+}

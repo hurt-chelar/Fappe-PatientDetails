@@ -1,0 +1,1369 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-05 17:40:56.223064",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "patient_details",
+  "column_break_9az5o",
+  "name1",
+  "mrd_no",
+  "date_of_admission",
+  "date_of_review",
+  "date_of_discharge",
+  "column_break_eflot",
+  "age",
+  "sex",
+  "height",
+  "weight",
+  "bmi",
+  "section_break_jb4px",
+  "lifestyle",
+  "section_break_66eb3",
+  "alcohol_consumption",
+  "column_break_3whla",
+  "smoking",
+  "section_break_8lvwx",
+  "hospitalization_status",
+  "ipop",
+  "location",
+  "location_details",
+  "isolated__non_isolated",
+  "department",
+  "department_details",
+  "consultant",
+  "health_status",
+  "colbreak",
+  "hypertension",
+  "type_ii_diabetes_mellitus",
+  "dyslipidemia",
+  "chronic_kidney_disease",
+  "chronic_liver_disease",
+  "column_break_4e33t",
+  "others",
+  "ohter_details",
+  "section_break_kyvgd",
+  "immunosupressive_condition",
+  "column_break_kez5f",
+  "immunosupressive_condition_details",
+  "section_break_tm0vr",
+  "immunosupressive_medications",
+  "past_medical_history_section",
+  "hospitilization_in_last_3_months",
+  "column_break_vtkfp",
+  "hospitilization_details",
+  "section_break_kethg",
+  "prior_antibiotic_use",
+  "column_break_vktfo",
+  "prior_anitibiotic_use_details",
+  "section_break_h1y0l",
+  "prior_surgial_detail",
+  "column_break_vnjrv",
+  "prior_surgial_details",
+  "drug_allergies",
+  "column_break_hk1dz",
+  "drug_allergy_details",
+  "section_break_wfvdh",
+  "history_of_present_illness",
+  "column_break_mxhiv",
+  "history_of_present_illness_details",
+  "section_break_v9v2h",
+  "clinical_parameters",
+  "vitals_section",
+  "rr",
+  "pr",
+  "bp",
+  "temp",
+  "o2_saturation",
+  "lab_parameters_section",
+  "wbc",
+  "crp",
+  "procalcitonin",
+  "lactate",
+  "neutrophlis",
+  "platelets",
+  "serum_creatinine",
+  "others12",
+  "section_break_6pi1l",
+  "urine_routine",
+  "analysis_of_body_fluids",
+  "column_break_zx4a6",
+  "csf_analysis",
+  "ascitic_fluid_analysis",
+  "pleural_fluid_analysis",
+  "synovial_fluid",
+  "radiology_section",
+  "xray",
+  "ct",
+  "mri",
+  "usg",
+  "column_break_jnqa0",
+  "others21",
+  "other_details",
+  "section_break_lnrl1",
+  "infection_and_details",
+  "suspected_focus_of_infection_section",
+  "pneumonia",
+  "column_break_rsmys",
+  "info1",
+  "section_break_387yg",
+  "uti",
+  "column_break_tnxe4",
+  "info2",
+  "section_break_6bn7d",
+  "chek123",
+  "column_break_ygj1a",
+  "cns_details",
+  "section_break_oa8mu",
+  "sast",
+  "column_break_rmrab",
+  "snddetails",
+  "section_break_tkdhu",
+  "abdominal",
+  "column_break_ke4ir",
+  "abdominal_details",
+  "section_break_lk2uz",
+  "bacteremia",
+  "column_break_gzvff",
+  "bacteremia_details",
+  "section_break_adzoj",
+  "catheterlinesstents",
+  "column_break_ulxjq",
+  "catheterlinesstents_details",
+  "section_break_rnjza",
+  "other122",
+  "column_break_vgxyb",
+  "oither124",
+  "section_break_rvrgf",
+  "haicai",
+  "column_break_cycj3",
+  "haicai_details",
+  "section_break_qpmie",
+  "microbiological_data",
+  "culture_sent_before_starting_antibiotics",
+  "culture_sent_after_starting_anitbiotics",
+  "data_and_time_of_culture_sent",
+  "time_of_sample_collection",
+  "reported_date_and_time",
+  "site_of_culture",
+  "sample_sent_for_culture_section",
+  "blood",
+  "urine",
+  "stool",
+  "sputum",
+  "mini_bal",
+  "csf",
+  "column_break_oegrk",
+  "ascitic_fluid",
+  "pleural_fluid",
+  "tissue",
+  "pus",
+  "section_break_9jmzx",
+  "otherdetails151",
+  "organism",
+  "microbial_contamination",
+  "provisional_report_of_culture",
+  "resistance_information",
+  "gnb_section",
+  "pan_sensitive",
+  "esbl",
+  "column_break_w7vxi",
+  "mdr",
+  "cre",
+  "section_break_nij70",
+  "gpc_section",
+  "mssa",
+  "mrsa",
+  "vre",
+  "section_break_k3zvt",
+  "fungus_section",
+  "azole_resistant_candida",
+  "diagnosis_and_management",
+  "diagnosis_section",
+  "syndromic_diagnosis",
+  "etiological_diagnosis",
+  "provisional_diagonosis",
+  "finaldg174",
+  "management_section",
+  "medications_other_than_antibiotics",
+  "current_antibiotics",
+  "treatement_evaluation",
+  "checkbox",
+  "total_score_section",
+  "pharma_d_inten",
+  "column_break_lamwf",
+  "id_physician",
+  "section_break_ysmni",
+  "yes",
+  "section_break_r0crw",
+  "yees",
+  "column_break_pptxd",
+  "noo",
+  "section_break_kbzfe",
+  "descalation",
+  "escalation",
+  "c_antibiotic_stoppage",
+  "antibiotic_change",
+  "column_break_fg5sr",
+  "antibiotic_dose_change",
+  "antibiotic_frequency_change",
+  "change_in_route_of_administration",
+  "infusion1",
+  "column_break_07ul7",
+  "infusion_details",
+  "section_break_o9osv",
+  "complaince",
+  "aliveexpired",
+  "follow_up_plan_section",
+  "clinical_cure",
+  "microbial_cure",
+  "radiological_cure",
+  "section_break_fssr6",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name Of Patient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mrd_no",
+   "fieldtype": "Int",
+   "label": "MRD No"
+  },
+  {
+   "fieldname": "date_of_admission",
+   "fieldtype": "Date",
+   "label": "Date of Admission "
+  },
+  {
+   "fieldname": "date_of_review",
+   "fieldtype": "Date",
+   "label": "Date of Review"
+  },
+  {
+   "fieldname": "date_of_discharge",
+   "fieldtype": "Date",
+   "label": "Date of Discharge"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "label": "Sex ",
+   "options": "Male\nFemale\nOther"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Int",
+   "label": "Height"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Int",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "bmi",
+   "fieldtype": "Data",
+   "label": "BMI"
+  },
+  {
+   "fieldname": "patient_details",
+   "fieldtype": "Heading",
+   "label": "Patient Details"
+  },
+  {
+   "fieldname": "lifestyle",
+   "fieldtype": "Heading",
+   "label": "Lifestyle : "
+  },
+  {
+   "default": "No",
+   "fieldname": "alcohol_consumption",
+   "fieldtype": "Select",
+   "label": "Alcohol Consumption",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "smoking",
+   "fieldtype": "Select",
+   "label": "Smoking ",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "hospitalization_status",
+   "fieldtype": "Heading",
+   "label": "Hospitalization Status"
+  },
+  {
+   "fieldname": "ipop",
+   "fieldtype": "Select",
+   "label": "IP/OP:",
+   "options": "In-patient\nOut-patient"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Select",
+   "label": "Location",
+   "options": "Ward\nRoom\nICU",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location_details",
+   "fieldtype": "Small Text",
+   "label": "Location Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "isolated__non_isolated",
+   "fieldtype": "Select",
+   "label": "Isolated / Non Isolated ",
+   "options": "Isolated\nNon-isolated"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "Medicine\nSurgical"
+  },
+  {
+   "fieldname": "department_details",
+   "fieldtype": "Small Text",
+   "label": "Department Details"
+  },
+  {
+   "fieldname": "consultant",
+   "fieldtype": "Data",
+   "label": "Consultant",
+   "options": "Name"
+  },
+  {
+   "fieldname": "health_status",
+   "fieldtype": "Heading",
+   "label": "Health Status"
+  },
+  {
+   "fieldname": "colbreak",
+   "fieldtype": "Section Break",
+   "label": "Co-morbidities "
+  },
+  {
+   "default": "0",
+   "fieldname": "hypertension",
+   "fieldtype": "Check",
+   "label": "Hypertension"
+  },
+  {
+   "default": "0",
+   "fieldname": "type_ii_diabetes_mellitus",
+   "fieldtype": "Check",
+   "label": "Type II Diabetes Mellitus "
+  },
+  {
+   "default": "0",
+   "fieldname": "dyslipidemia",
+   "fieldtype": "Check",
+   "label": "Dyslipidemia"
+  },
+  {
+   "default": "0",
+   "fieldname": "chronic_kidney_disease",
+   "fieldtype": "Check",
+   "label": "Chronic Kidney Disease"
+  },
+  {
+   "default": "0",
+   "fieldname": "chronic_liver_disease",
+   "fieldtype": "Check",
+   "label": "Chronic Liver Disease"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "Others "
+  },
+  {
+   "fieldname": "column_break_4e33t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "others",
+   "fieldname": "ohter_details",
+   "fieldtype": "Small Text",
+   "label": "Other Details  "
+  },
+  {
+   "fieldname": "section_break_kyvgd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "immunosupressive_condition",
+   "fieldtype": "Select",
+   "label": "Immunosupressive Condition",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "column_break_kez5f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "immunosupressive_condition_details",
+   "fieldtype": "Small Text",
+   "label": "Immunosupressive Condition Details"
+  },
+  {
+   "fieldname": "section_break_tm0vr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "immunosupressive_medications",
+   "fieldtype": "Small Text",
+   "label": "Immunosupressive Medications"
+  },
+  {
+   "fieldname": "past_medical_history_section",
+   "fieldtype": "Section Break",
+   "label": "Past Medical History"
+  },
+  {
+   "default": "0",
+   "fieldname": "hospitilization_in_last_3_months",
+   "fieldtype": "Check",
+   "label": "Hospitilization in Last 3 months"
+  },
+  {
+   "fieldname": "column_break_vtkfp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hospitilization_details",
+   "fieldtype": "Small Text",
+   "label": "Hospitilization Details"
+  },
+  {
+   "fieldname": "section_break_kethg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "prior_antibiotic_use",
+   "fieldtype": "Check",
+   "label": "Prior Antibiotic Use"
+  },
+  {
+   "fieldname": "column_break_vktfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "prior_anitibiotic_use_details",
+   "fieldtype": "Small Text",
+   "label": "Prior Anitibiotic Use Details"
+  },
+  {
+   "fieldname": "section_break_h1y0l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "prior_surgial_detail",
+   "fieldtype": "Check",
+   "label": "Prior Surgial Detail"
+  },
+  {
+   "fieldname": "column_break_vnjrv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "prior_surgial_details",
+   "fieldtype": "Small Text",
+   "label": "Prior Surgial Details"
+  },
+  {
+   "fieldname": "drug_allergies",
+   "fieldtype": "Select",
+   "label": "Drug Allergies ",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "column_break_hk1dz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "drug_allergy_details",
+   "fieldtype": "Small Text",
+   "label": "Drug Allergy Details"
+  },
+  {
+   "fieldname": "section_break_wfvdh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "history_of_present_illness",
+   "fieldtype": "Select",
+   "label": "History Of Present Illness ",
+   "options": "Medical\nSurgical"
+  },
+  {
+   "fieldname": "column_break_mxhiv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "history_of_present_illness_details",
+   "fieldtype": "Small Text",
+   "label": "History Of Present Illness Details "
+  },
+  {
+   "fieldname": "section_break_v9v2h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "clinical_parameters",
+   "fieldtype": "Heading",
+   "label": "Clinical Parameters"
+  },
+  {
+   "fieldname": "vitals_section",
+   "fieldtype": "Section Break",
+   "label": "Vitals"
+  },
+  {
+   "fieldname": "rr",
+   "fieldtype": "Float",
+   "label": "RR"
+  },
+  {
+   "fieldname": "pr",
+   "fieldtype": "Float",
+   "label": "PR"
+  },
+  {
+   "fieldname": "bp",
+   "fieldtype": "Float",
+   "label": "BP"
+  },
+  {
+   "fieldname": "temp",
+   "fieldtype": "Float",
+   "label": "Temp"
+  },
+  {
+   "fieldname": "o2_saturation",
+   "fieldtype": "Float",
+   "label": "O2 Saturation"
+  },
+  {
+   "fieldname": "lab_parameters_section",
+   "fieldtype": "Section Break",
+   "label": "Lab Parameters "
+  },
+  {
+   "fieldname": "wbc",
+   "fieldtype": "Float",
+   "label": "WBC "
+  },
+  {
+   "fieldname": "crp",
+   "fieldtype": "Float",
+   "label": "CRP"
+  },
+  {
+   "fieldname": "procalcitonin",
+   "fieldtype": "Float",
+   "label": "Procalcitonin"
+  },
+  {
+   "fieldname": "lactate",
+   "fieldtype": "Float",
+   "label": "Lactate "
+  },
+  {
+   "fieldname": "neutrophlis",
+   "fieldtype": "Float",
+   "label": "Neutrophlis "
+  },
+  {
+   "fieldname": "platelets",
+   "fieldtype": "Float",
+   "label": "Platelets "
+  },
+  {
+   "fieldname": "serum_creatinine",
+   "fieldtype": "Float",
+   "label": "Serum Creatinine "
+  },
+  {
+   "fieldname": "others12",
+   "fieldtype": "Small Text",
+   "label": "Others "
+  },
+  {
+   "fieldname": "section_break_6pi1l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Pus Cells",
+   "fieldname": "urine_routine",
+   "fieldtype": "Data",
+   "label": "Urine Routine "
+  },
+  {
+   "fieldname": "analysis_of_body_fluids",
+   "fieldtype": "Select",
+   "label": "Analysis Of Body Fluids",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "column_break_zx4a6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "csf_analysis",
+   "fieldtype": "Data",
+   "label": "CSF Analysis "
+  },
+  {
+   "fieldname": "ascitic_fluid_analysis",
+   "fieldtype": "Data",
+   "label": "Ascitic Fluid Analysis"
+  },
+  {
+   "fieldname": "pleural_fluid_analysis",
+   "fieldtype": "Data",
+   "label": "Pleural Fluid Analysis "
+  },
+  {
+   "fieldname": "synovial_fluid",
+   "fieldtype": "Data",
+   "label": "Synovial Fluid "
+  },
+  {
+   "fieldname": "radiology_section",
+   "fieldtype": "Section Break",
+   "label": "Radiology "
+  },
+  {
+   "default": "0",
+   "fieldname": "xray",
+   "fieldtype": "Check",
+   "label": "X - Ray "
+  },
+  {
+   "default": "0",
+   "fieldname": "ct",
+   "fieldtype": "Check",
+   "label": "CT "
+  },
+  {
+   "default": "0",
+   "fieldname": "mri",
+   "fieldtype": "Check",
+   "label": "MRI"
+  },
+  {
+   "default": "0",
+   "fieldname": "usg",
+   "fieldtype": "Check",
+   "label": "USG"
+  },
+  {
+   "fieldname": "column_break_jnqa0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "others21",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "fieldname": "other_details",
+   "fieldtype": "Small Text",
+   "label": "Other Details"
+  },
+  {
+   "fieldname": "section_break_lnrl1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "infection_and_details",
+   "fieldtype": "Heading",
+   "label": "Infection and Details"
+  },
+  {
+   "fieldname": "suspected_focus_of_infection_section",
+   "fieldtype": "Section Break",
+   "label": "Suspected focus of Infection"
+  },
+  {
+   "default": "0",
+   "fieldname": "pneumonia",
+   "fieldtype": "Check",
+   "label": "Pneumonia "
+  },
+  {
+   "depends_on": "pneumonia",
+   "fieldname": "info1",
+   "fieldtype": "Small Text",
+   "label": "Pneumonia Details"
+  },
+  {
+   "fieldname": "column_break_rsmys",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "uti",
+   "fieldtype": "Check",
+   "label": "UTI"
+  },
+  {
+   "fieldname": "column_break_tnxe4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "info2",
+   "fieldtype": "Small Text",
+   "label": "UTI Details "
+  },
+  {
+   "fieldname": "section_break_387yg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_6bn7d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "chek123",
+   "fieldtype": "Check",
+   "label": "CNS"
+  },
+  {
+   "fieldname": "column_break_ygj1a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cns_details",
+   "fieldtype": "Small Text",
+   "label": "CNS Details "
+  },
+  {
+   "fieldname": "section_break_oa8mu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sast",
+   "fieldtype": "Check",
+   "label": "Skin & Soft Tissue"
+  },
+  {
+   "fieldname": "column_break_rmrab",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "snddetails",
+   "fieldtype": "Small Text",
+   "label": "Skin & Soft Tissue Details"
+  },
+  {
+   "fieldname": "section_break_tkdhu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "abdominal",
+   "fieldtype": "Check",
+   "label": "Abdominal"
+  },
+  {
+   "fieldname": "column_break_ke4ir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "abdominal_details",
+   "fieldtype": "Small Text",
+   "label": "Abdominal Details "
+  },
+  {
+   "fieldname": "section_break_lk2uz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "bacteremia",
+   "fieldtype": "Check",
+   "label": "Bacteremia "
+  },
+  {
+   "fieldname": "column_break_gzvff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bacteremia_details",
+   "fieldtype": "Select",
+   "label": "Bacteremia Details",
+   "options": "Primary\nSecondary"
+  },
+  {
+   "fieldname": "section_break_adzoj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "catheterlinesstents",
+   "fieldtype": "Check",
+   "label": "Catheter/Lines/Stents"
+  },
+  {
+   "fieldname": "column_break_ulxjq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "catheterlinesstents_details",
+   "fieldtype": "Small Text",
+   "label": "Catheter/Lines/Stents Details"
+  },
+  {
+   "fieldname": "section_break_rnjza",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other122",
+   "fieldtype": "Check",
+   "label": "Others "
+  },
+  {
+   "fieldname": "column_break_vgxyb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "oither124",
+   "fieldtype": "Small Text",
+   "label": "Other Details "
+  },
+  {
+   "fieldname": "section_break_rvrgf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "haicai",
+   "fieldtype": "Select",
+   "label": "HAI/CAI",
+   "options": "HAI\nCAI"
+  },
+  {
+   "fieldname": "column_break_cycj3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "haicai_details",
+   "fieldtype": "Small Text",
+   "label": "HAI/CAI Details"
+  },
+  {
+   "fieldname": "section_break_qpmie",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "microbiological_data",
+   "fieldtype": "Heading",
+   "label": "Microbiological Data"
+  },
+  {
+   "fieldname": "culture_sent_before_starting_antibiotics",
+   "fieldtype": "Select",
+   "label": "Culture Sent before starting antibiotics ",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "culture_sent_after_starting_anitbiotics",
+   "fieldtype": "Select",
+   "label": "Culture sent after starting anitbiotics ",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "data_and_time_of_culture_sent",
+   "fieldtype": "Datetime",
+   "label": "Data and time of culture sent"
+  },
+  {
+   "fieldname": "time_of_sample_collection",
+   "fieldtype": "Time",
+   "label": "Time of sample collection "
+  },
+  {
+   "fieldname": "reported_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Reported Date and time "
+  },
+  {
+   "fieldname": "site_of_culture",
+   "fieldtype": "Data",
+   "label": "Site of culture "
+  },
+  {
+   "fieldname": "sample_sent_for_culture_section",
+   "fieldtype": "Section Break",
+   "label": "Sample sent for culture"
+  },
+  {
+   "default": "0",
+   "fieldname": "blood",
+   "fieldtype": "Check",
+   "label": "Blood"
+  },
+  {
+   "default": "0",
+   "fieldname": "urine",
+   "fieldtype": "Check",
+   "label": "Urine "
+  },
+  {
+   "default": "0",
+   "fieldname": "stool",
+   "fieldtype": "Check",
+   "label": "Stool"
+  },
+  {
+   "default": "0",
+   "fieldname": "sputum",
+   "fieldtype": "Check",
+   "label": "Sputum"
+  },
+  {
+   "default": "0",
+   "fieldname": "mini_bal",
+   "fieldtype": "Check",
+   "label": "Mini BAL "
+  },
+  {
+   "default": "0",
+   "fieldname": "csf",
+   "fieldtype": "Check",
+   "label": "CSF "
+  },
+  {
+   "fieldname": "column_break_oegrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ascitic_fluid",
+   "fieldtype": "Check",
+   "label": "Ascitic Fluid "
+  },
+  {
+   "default": "0",
+   "fieldname": "pleural_fluid",
+   "fieldtype": "Check",
+   "label": "Pleural Fluid "
+  },
+  {
+   "default": "0",
+   "fieldname": "tissue",
+   "fieldtype": "Check",
+   "label": "Tissue"
+  },
+  {
+   "default": "0",
+   "fieldname": "pus",
+   "fieldtype": "Check",
+   "label": "Pus"
+  },
+  {
+   "fieldname": "section_break_9jmzx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "otherdetails151",
+   "fieldtype": "Small Text",
+   "label": "Other Details"
+  },
+  {
+   "fieldname": "organism",
+   "fieldtype": "Small Text",
+   "label": "Organism "
+  },
+  {
+   "fieldname": "microbial_contamination",
+   "fieldtype": "Small Text",
+   "label": "Microbial Contamination"
+  },
+  {
+   "fieldname": "provisional_report_of_culture",
+   "fieldtype": "Small Text",
+   "label": "Provisional report of culture"
+  },
+  {
+   "fieldname": "resistance_information",
+   "fieldtype": "Heading",
+   "label": "Resistance Information "
+  },
+  {
+   "fieldname": "gnb_section",
+   "fieldtype": "Section Break",
+   "label": "GNB "
+  },
+  {
+   "default": "0",
+   "fieldname": "pan_sensitive",
+   "fieldtype": "Check",
+   "label": "Pan Sensitive "
+  },
+  {
+   "default": "0",
+   "fieldname": "esbl",
+   "fieldtype": "Check",
+   "label": "ESBL "
+  },
+  {
+   "fieldname": "column_break_w7vxi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "mdr",
+   "fieldtype": "Check",
+   "label": "MDR"
+  },
+  {
+   "default": "0",
+   "fieldname": "cre",
+   "fieldtype": "Check",
+   "label": "CRE"
+  },
+  {
+   "fieldname": "section_break_nij70",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gpc_section",
+   "fieldtype": "Section Break",
+   "label": "GPC"
+  },
+  {
+   "default": "0",
+   "fieldname": "mssa",
+   "fieldtype": "Check",
+   "label": "MSSA "
+  },
+  {
+   "default": "0",
+   "fieldname": "mrsa",
+   "fieldtype": "Check",
+   "label": "MRSA"
+  },
+  {
+   "default": "0",
+   "fieldname": "vre",
+   "fieldtype": "Check",
+   "label": "VRE"
+  },
+  {
+   "fieldname": "section_break_k3zvt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fungus_section",
+   "fieldtype": "Section Break",
+   "label": "Fungus "
+  },
+  {
+   "fieldname": "azole_resistant_candida",
+   "fieldtype": "Select",
+   "label": "Azole Resistant Candida",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "diagnosis_and_management",
+   "fieldtype": "Heading",
+   "label": "Diagnosis and Management "
+  },
+  {
+   "fieldname": "diagnosis_section",
+   "fieldtype": "Section Break",
+   "label": "Diagnosis "
+  },
+  {
+   "fieldname": "syndromic_diagnosis",
+   "fieldtype": "Text",
+   "label": "Syndromic Diagnosis "
+  },
+  {
+   "fieldname": "etiological_diagnosis",
+   "fieldtype": "Text",
+   "label": "Etiological Diagnosis "
+  },
+  {
+   "fieldname": "provisional_diagonosis",
+   "fieldtype": "Text",
+   "label": "Provisional Diagonosis"
+  },
+  {
+   "fieldname": "finaldg174",
+   "fieldtype": "Text",
+   "label": "Final Diagnosis( Include Complications if any ) : "
+  },
+  {
+   "fieldname": "management_section",
+   "fieldtype": "Section Break",
+   "label": "Management"
+  },
+  {
+   "fieldname": "medications_other_than_antibiotics",
+   "fieldtype": "Table",
+   "label": "Medications other than antibiotics",
+   "options": "Antiobiotics"
+  },
+  {
+   "fieldname": "current_antibiotics",
+   "fieldtype": "Table",
+   "label": "Current Antibiotics",
+   "options": "currentAntibiotics"
+  },
+  {
+   "fieldname": "treatement_evaluation",
+   "fieldtype": "Heading",
+   "label": "Treatement Evaluation"
+  },
+  {
+   "fieldname": "checkbox",
+   "fieldtype": "Table",
+   "label": "5R Checkbox",
+   "options": "checkbox"
+  },
+  {
+   "fieldname": "total_score_section",
+   "fieldtype": "Section Break",
+   "label": "Total Score "
+  },
+  {
+   "fieldname": "pharma_d_inten",
+   "fieldtype": "Data",
+   "label": "Pharma D Inten"
+  },
+  {
+   "fieldname": "column_break_lamwf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id_physician",
+   "fieldtype": "Data",
+   "label": "ID Physician "
+  },
+  {
+   "fieldname": "section_break_ysmni",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "yes",
+   "fieldtype": "Select",
+   "label": "Appropriateness ",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "section_break_r0crw",
+   "fieldtype": "Section Break",
+   "label": "Recomendation Filed "
+  },
+  {
+   "fieldname": "column_break_pptxd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_kbzfe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "NO",
+   "fetch_if_empty": 1,
+   "fieldname": "yees",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "noo",
+   "fieldtype": "Check",
+   "label": "No",
+   "mandatory_depends_on": "no1"
+  },
+  {
+   "default": "0",
+   "fieldname": "descalation",
+   "fieldtype": "Check",
+   "label": "De-Escalation"
+  },
+  {
+   "default": "0",
+   "fieldname": "escalation",
+   "fieldtype": "Check",
+   "label": "Escalation"
+  },
+  {
+   "default": "0",
+   "fieldname": "c_antibiotic_stoppage",
+   "fieldtype": "Check",
+   "label": "Antibiotic Stoppage"
+  },
+  {
+   "default": "0",
+   "fieldname": "antibiotic_change",
+   "fieldtype": "Check",
+   "label": "Antibiotic Change"
+  },
+  {
+   "default": "0",
+   "fieldname": "antibiotic_dose_change",
+   "fieldtype": "Check",
+   "label": "Antibiotic dose Change"
+  },
+  {
+   "default": "0",
+   "fieldname": "antibiotic_frequency_change",
+   "fieldtype": "Check",
+   "label": "Antibiotic frequency Change"
+  },
+  {
+   "default": "0",
+   "fieldname": "change_in_route_of_administration",
+   "fieldtype": "Check",
+   "label": "Change in route of administration"
+  },
+  {
+   "default": "0",
+   "fieldname": "infusion1",
+   "fieldtype": "Check",
+   "label": "Infusion"
+  },
+  {
+   "fieldname": "column_break_fg5sr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "infusion1",
+   "fieldname": "infusion_details",
+   "fieldtype": "Small Text",
+   "label": "Infusion Details "
+  },
+  {
+   "fieldname": "column_break_07ul7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_o9osv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "complaince",
+   "fieldtype": "Select",
+   "label": "Complaince",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "aliveexpired",
+   "fieldtype": "Select",
+   "label": "Alive/Expired",
+   "options": "YES\nNO"
+  },
+  {
+   "fieldname": "follow_up_plan_section",
+   "fieldtype": "Section Break",
+   "label": "Follow Up Plan"
+  },
+  {
+   "fieldname": "clinical_cure",
+   "fieldtype": "Small Text",
+   "label": "Clinical Cure"
+  },
+  {
+   "fieldname": "microbial_cure",
+   "fieldtype": "Small Text",
+   "label": "Microbial Cure"
+  },
+  {
+   "fieldname": "radiological_cure",
+   "fieldtype": "Small Text",
+   "label": "Radiological Cure"
+  },
+  {
+   "fieldname": "section_break_fssr6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_9az5o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_eflot",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_jb4px",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3whla",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8lvwx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_66eb3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PatientDetails",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-08 11:40:46.371444",
+ "modified_by": "Administrator",
+ "module": "Patient Details",
+ "name": "PatientDetails",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

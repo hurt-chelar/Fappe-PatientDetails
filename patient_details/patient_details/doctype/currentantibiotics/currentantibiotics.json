@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-07 13:57:55.214372",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "antibiotic",
+  "loading_dose",
+  "maintenance_dose",
+  "route",
+  "frequency",
+  "infusion",
+  "std1",
+  "std2",
+  "duration_of_days"
+ ],
+ "fields": [
+  {
+   "fieldname": "antibiotic",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Antibiotic"
+  },
+  {
+   "fieldname": "loading_dose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Loading Dose"
+  },
+  {
+   "fieldname": "maintenance_dose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Maintenance Dose"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Route"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "infusion",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Infusion"
+  },
+  {
+   "fieldname": "std1",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date "
+  },
+  {
+   "fieldname": "std2",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Stop Date"
+  },
+  {
+   "fieldname": "duration_of_days",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Duration of Days "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-08 11:45:36.553563",
+ "modified_by": "Administrator",
+ "module": "Patient Details",
+ "name": "currentAntibiotics",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
